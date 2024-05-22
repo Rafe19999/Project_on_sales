@@ -1,0 +1,228 @@
+*{
+   margin: 0;
+   padding: 3;
+  box-sizing:border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex; 
+  justify-content: space-between ;
+  align-items: center;
+  z-index: 99;
+  
+}
+
+.logo{
+  font-size:  2em;
+  color: #fff;
+  user-select: none;
+
+}
+.navigation a{
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+
+ .navigation .btnloginpopup{
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid rebeccapurple;
+  outline: none;
+  cursor: pointer;
+  font-size:1.1em ;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: .5s;
+ }
+
+ .navigation .btnloginpopup:hover{
+     background: #5418C1;
+ }
+ 
+body{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150vh;
+  background-image: url(Free-download-Desktop-Backgrounds-Using-Browser-Themes-.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.right-bottom{
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  text-align: center;
+
+  
+
+}
+
+
+
+.login{
+  width: 382px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: transparent;
+  border-radius: 15px ;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 30px rgba(0, 0,0, .5);
+}
+
+
+h2{
+text-align: center;
+color: #277582;
+padding: 20px;
+}
+label{
+color: #051D8F ; 
+;
+font-size: 17px;
+}
+#Uname{
+width: 200px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+}
+#Pass{
+width: 200px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+
+}
+#log{
+width: 200px;
+height: 30px;
+border: none;
+border-radius: 17px;
+padding-left: 7px;
+color: #E37909  ;
+font-weight: 5px;
+justify-content: space-between ;
+
+}
+.navigetion a{
+  position: relative;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 3px;
+
+}
+
+.navigetion .button{
+  width: 200px;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 40px;
+  border: #141518 ;
+
+  outline: none;
+  font-size: 1.8 rem;
+  font-weight: 600;
+  margin-left: 0px;
+  
+
+}
+
+
+span{
+color: white;
+font-size: 17px;
+}
+
+
+.header{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: -6px;
+}
+
+.header h1{
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #fff;
+}
+  .products{
+        
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         gap: 40px;
+         
+        
+  }
+
+  .product{
+    
+    position: relative;
+    background-color: #8A9DA6;
+    width: 350px;
+    height: 100%;
+    box-shadow: 0 5px 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    border-right: 3px;
+    
+  }
+  .buy{
+  
+  background: transparent;
+  border: 2px solid rgba(11, 11, 12, 0.805);
+  outline: none;
+  cursor: pointer;
+  font-size:1.1em ;
+  color: #fff;
+  font-weight: 500;
+  
+  transition: .5s;
+    cursor: pointer;
+  }
+  .buy:hover{
+    background:#fff ;
+    color:#051D8F;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
